@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: black;
     overflow: hidden;
     margin: 0px;
 }
@@ -26,7 +26,6 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
     position: relative;
 }
 
@@ -194,6 +193,28 @@ p.navDotInfo {
     overflow: hidden;
 }
 
+.content-container-left {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.content-container-right {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .left-column {
     flex: 0 0 40%;
     background-color: #f8f2e7;
@@ -205,4 +226,22 @@ p.navDotInfo {
     flex: 0 0 60%;
     padding: 10px;
     background-color: #ffffff;
+}
+
+.left-top {
+    flex: 0 0 50%;
+    margin: 0px;
+    padding: 10px;
+}
+
+.left-bottom {
+    flex: 0 0 50%;
+    margin: 0px;
+    padding: 10px;
+}
+
+.right-center {
+    flex: 1 1 100%;
+    margin: 0px;
+    padding: 10px;
 }
