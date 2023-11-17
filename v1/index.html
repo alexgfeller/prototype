@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Vertical Slide </title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="hideMe">
+
+    <svg
+            id="downArrow"
+            class="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 100"
+    >
+        <g stroke-linejoin="round" stroke-linecap="round">
+            <circle r="46" cx="50" cy="50"/>
+            <polyline points="25 40, 50 70, 75 40"></polyline>
+        </g>
+    </svg>
+
+    <svg
+            id="upArrow"
+            class="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 100"
+    >
+        <g stroke-linejoin="round" stroke-linecap="round">
+            <circle r="46" cx="50" cy="50"/>
+            <polyline points="25 60, 50 30, 75 60"></polyline>
+        </g>
+    </svg>
+    <div id="masterWrap">
+
+        <div id="panelWrap">
+
+            <section>
+                <div class="container">
+                    <div class="left-column">
+                        1
+                    </div>
+                    <div class="right-column">
+                        1
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="left-column">
+                        2
+                    </div>
+                    <div class="right-column">
+                        2
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="left-column">
+                        3
+                    </div>
+                    <div class="right-column">
+                        3
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div>
+    </div>
+    <div class="dots"></div>
+    <div class="toolTips">
+        <div class="toolTip">Slider Control</div>
+        <div class="toolTip">Powered by GSAP</div>
+        <div class="toolTip">Side animation</div>
+        <div class="toolTip">Random dog</div>
+        <div class="toolTip">Sliders are useful</div>
+        <div class="toolTip">Follow on Twitter</div>
+    </div>
+</div>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/draggable/1.0.0-beta.9/draggable.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.9/interact.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/Draggable3.min.js?r=897'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/InertiaPlugin.min.js?r=1789'></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
